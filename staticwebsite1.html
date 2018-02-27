@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> SNACK TIME FOOOOD </title>
+	<link rel = "stylesheet" type = "text/css" href = "design.css">
+	<meta charset = "utf - 5">
+	<meta name = "viewport" content = "width = device-width, initial-scale-1">
+	<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head> 
+<style> 
+.bg-1{
+	background: #1abc9c;
+	color: #ffffff;
+}
+div.heading {
+	background-color: pink;
+	color: orange;
+	margin: 20px 50px 0px 20px;
+	padding: 20px;
+}
+</style>
+
+<body>
+	<div class = "bg-1">
+		<div class = "container text-center">
+	<h2> Who are you? </h2>
+	<img src = "../Downloads/smores.jpg" class = "img-circle" alt = "Smores" width = "350" height = "350">
+	<h2> I'm smores </h2>
+	<!-- target id: #, target class: . preceeding -->
+	<div class = "flavours" > vanilla </div>
+	<div class = "flavours" > chocolate </div>
+	<div class = "flavours" > strawberry </div>
+	<div class = "raspberry" id = "choc"> mint </div>
+	<div class = "heading"> 
+		<h1> London </h1>
+		<p> london is the capital of england </p>
+	</div>
+	
+	<div class = "heading"> 
+		<h1> paris </h1>
+		<p> paris capital of france </p>
+	</div>
+	<div class = "heading"> 
+		<h1> tokyo </h1>
+		<p> tokyo capital of japan </p>
+	</div>
+
+	<div class = "border"> </div>
+
+	<p> Sweeeets </p>
+	<ol>
+		<li> candy </li>
+		<li> snickers </li>
+		<li> caramel </li>
+	</ol>
+	<p> choose your fav food </p>
+	<table>
+		<tr> 
+			<th scope = "col"> <b> Probably healthier </b> </th>
+			<th scope = "col"> Not healthy </th>
+		</tr>
+		<tr>
+			<a href = "https://www.thespruce.com/easy-baked-smores-3052398" alt = "lah"> <img src = "../Downloads/smores.jpg" width = "200" height = "200" /img> </a> 
+			<a href = "https://allcitycandy.com/products/snickers-candy-bar-3"> <img src = "../Downloads/snickers.png" </img> </a>
+		</tr>
+	</table>
+	<input type = "radio" name = "genre" value = "healthier" /> Healthier
+	<input type = "radio" name = "genre" value = "not healthy" /> Not healthy
+
+	<select name = "devices">
+		<option value = "snickers"> snickers </option>
+		<option value = "mars"> mars </option>
+	</select>
+
+
+
+</body>
+</html>
+
+<!-- selector {property: value} -->
+<!-- internal style (where you type the text): within head, declare 'style', then <h1> -->
+<!-- external style (css: for design): provide link <link rel = "stylesheet" type = "text/css href = "theme.css", for ordered code -->
+
